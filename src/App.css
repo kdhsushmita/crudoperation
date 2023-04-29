@@ -36,3 +36,96 @@
     transform: rotate(360deg);
   }
 }
+/* userform */
+.form-div {
+  border: 2px solid black;
+  width: 50%;
+  padding: 20px;
+  height: 680px;
+  background: yellow;
+  margin: auto;
+  line-height: 20px;
+ border-radius: 15px;
+ margin-top: 20px;
+}
+.form-div >div{
+  display: flex;
+  align-items: stretch;
+}
+.form-div >div>label{
+  width: 10ch;
+  flex-shrink: 0;
+} 
+.i1{
+   padding : 12px;
+   border-radius : 5px ;
+    border :2px solid black;
+    flex-shrink: 0;
+    flex-grow: 1;
+   font-weight: bold;
+   line-height: 20px;
+}
+.d1{
+  font-size: 20px;
+}
+.formbutton{
+  margin: auto;
+  width: 5%;
+}
+ .b1{
+  background : blue;
+  border : 2px solid black;
+  margin-Top:30px;
+  border-Radius:5px ;
+  padding : 12px ;
+  width: "30%";
+  /* margin-left: 15px; */
+   
+} 
+/* .btn{
+  background : pink;
+  border : 2px solid black;
+  margin-Top:30px;
+  border-Radius:5px ;
+   padding : 12px ;
+    width: "30%";
+} 
+.div2{
+  display:flex;
+  
+   justify-content:flex-start;
+   /* background-color:red; 
+   width:45%;
+   border:2px solid black;
+   border-radius: 5px;
+}
+.btn1{
+  background-color: aqua;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+
+/* container */
+
+.container{
+  border: 2px solid black;
+  margin: auto;
+  margin-top: 2%;
+  width: 50%;
+}
+ .box{
+  display:flex;
+  border:2px solid black; 
+}
+.para{
+  display: flex;
+  justify-content: flex-start;
+  width:80%; 
+ 
+}
+.btn{
+  /* border: 2px solid black; */
+  width:20%;
+  line-height: 60px;  
+}  
